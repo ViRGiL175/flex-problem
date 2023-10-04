@@ -1,0 +1,14 @@
+:host {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#toolbar {
+  position: sticky;
+}
+
+#router-container {
+  flex-grow: 1;
+}
