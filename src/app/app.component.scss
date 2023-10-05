@@ -1,6 +1,6 @@
 :host {
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -10,5 +10,5 @@
 }
 
 #router-container {
-  flex-grow: 1;
+  flex: 1;
 }
